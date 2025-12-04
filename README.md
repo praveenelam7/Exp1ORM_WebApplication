@@ -46,6 +46,8 @@ admin.site.register(Order, OrderAdmin)
 ## OUTPUT
 Include your output
 
+![orm](https://github.com/user-attachments/assets/a6ea0ec2-ec1b-4f0c-8a59-1fdaf81381df)
+
 
 ## RESULT
 Thus the program for creating car inventory database database using ORM hass been executed successfully
