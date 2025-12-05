@@ -20,10 +20,29 @@ Execute Django admin and create details for 5 Car
 
 ## PROGRAM
 Include your program
+```
+from django.contrib import admin
+from.models import studentdb, studentdbAdmin
+admin.site.register(studentdb, studentdbAdmin)
+
+from django.db import models
+from django.contrib import admin
+class studentdb(models.Model):
+    student_name = models.CharField(max_length=25)
+    student_id = models.IntegerField()
+    student_email = models.EmailField()
+    join_date = models.DateField()
+
+class studentdbAdmin(admin.ModelAdmin):
+    list_display = ('student_name','student_id','student_email','join_date')
+
+```
 
 
 ## OUTPUT
 Include your output
+![59689547525 jpj](https://github.com/user-attachments/assets/b520ab11-99b7-4c1c-893e-2bed9d6b16dd)
+
 
 
 ## RESULT
