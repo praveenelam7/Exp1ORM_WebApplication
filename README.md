@@ -44,6 +44,8 @@ admin.site.register(studentdb, studentdbAdmin)
 ## OUTPUT
 Include your output
 ![59689547525 jpj](https://github.com/user-attachments/assets/b520ab11-99b7-4c1c-893e-2bed9d6b16dd)
+![O1](https://github.com/user-attachments/assets/12a23831-76ae-4097-a09c-d822b4f091ce)
+![02](https://github.com/user-attachments/assets/86110f01-b88c-4ff7-879b-d828c3068e3b)
 
 
 
